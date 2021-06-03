@@ -1,0 +1,108 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../Restaurant/Images/Background_image.png);
+    height: 110vw;
+    background-size: cover;
+    background-position: cover;
+}
+.header{
+    display: flex;
+    padding: 10px 0;
+    list-style-type: none;
+}
+.header>div{
+    font-size: 2vw;
+    border: 1px solid black;
+    margin: 1vw 1vw;
+    margin-right: 4vw;
+    padding: 1px 3vw;
+}
+.header>div a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid transparent;
+}
+.header>div a:hover{
+    background-color: black;
+    color: wheat;
+}
+
+.container {
+ padding-left: 10px;
+}
+
+.section{
+    display: flex;
+    padding-top: 10px;
+}
+.pic1{
+    width: 50vw;
+    height: 35vw;
+}
+.offers
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 2vw;
+}
+.offer
+{
+    text-align: center;
+    font-size: 6vw;
+    border: 1px solid black;
+    margin: 2vw 0;
+    font-style: oblique;
+    color:brown;
+
+}
+.gallery-pic{
+    height: 10vw;
+    width: 16vw;
+}
+.photo-text {
+    position: absolute;
+    font-size: 2vw;
+    padding: 10px;
+}
+.Specialities{
+    display:flex;
+}
+.spl{
+    height: 12vw;
+    width: 22vw;
+}
+.speciality{
+    display: flex;
+    padding-right: 2vw;
+}
+.text-white{
+    color: wheat;
+}
+.insta-head{
+    text-align: center;
+    font-size: 2vw;
+    color:wheat;
+    padding-bottom: 10px;
+
+    
+}
+.insta{
+    padding-top: 10px;
+}
+.midsection{
+    border: 1px solid brown;
+    margin-top: 1vw;
+    padding-top:0;
+    margin-right: 2vw;
+}
+.desc{
+    padding-left: 1vw;
+    padding-top: 15vw;
+    font-size: 1.5vw;
+    font-style: italic;
+    color:orangered;
+}
+
